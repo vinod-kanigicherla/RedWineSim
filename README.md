@@ -1,8 +1,12 @@
 # Red Wine Making Simulator
 
-Creators: Vinny Kanigicherla, Leo Chang, Kyle Yin
+![Image of Red Wine Making Simulator Interface](https://github.com/vinod-kanigicherla/RedWineSim/blob/main/images%2Bfonts/thumbnail.png?raw=true)
+
+**Creators:** Vinny Kanigicherla, Leo Chang, Kyle Yin
 
 **Description:** "Red Wine Making Simulator" is a game where players choose grapes, manage fermentation, and adjust wine composition to produce and rate their own red wines. This interactive simulator combines real winemaking processes with engaging gameplay. Discover the intricacies of wine production, from grape selection to the final taste test.
+
+---
 
 ### Key Libraries:
 - **Pygame** - Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.
@@ -11,12 +15,26 @@ built on top of the Python programming language.
 - **Scikit-Learn** - Scikit-Learn, also known as sklearn is a python library to implement machine learning models and statistical modelling. 
 - **Seaborn** - Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
 
+---
+
 ### Key Files:
 1. RedWineNotebook.ipynb - The Singlestore Notebook
-2. RedWineMakingSimulator.py - The Game
 
-#### Our Final Model:
-**Random Forest Classifier**
+- **Notebook Contents**:
+   * Data Processing and Analysis: The notebook starts by loading a wine dataset, which includes various properties of wine samples along with their quality ratings. It involves cleaning the data, handling missing values, and possibly normalizing or standardizing the features. Then, it performs exploratory data analysis (EDA) to uncover trends and patterns, using visualizations like histograms and scatter plots to understand the relationships between different wine properties and quality.
+   * Pattern Recognition and Insights: Through EDA, the notebook identifies critical factors that affect wine quality, such as acidity, sugar content, and alcohol level. These insights are essential for both improving the machine learning model's accuracy and informing game mechanics in the "Red Wine Making Simulator".
+   * Machine Learning Model - Wine Evaluator: The notebook uses the processed data to develop a machine learning model that predicts the quality of wine based on its physicochemical properties. Techniques like Random Forest and Support Vector Machines are utilized, and the model's performance is evaluated using metrics like precision, recall, and F1-score.
+
+2. RedWineMakingSimulator.py - The Simulator
+- **Description:** "Red Wine Making Simulator" is a game where players choose grapes, manage fermentation, and adjust wine composition to produce and rate their own red wines. This interactive simulator combines real winemaking processes with real red wine quality data. Discover the intricacies of wine production, from grape selection to the final rating.
+   
+**Project Milestones/Key Solved Challenges:**
+- Developed a simulation that mirrors real-life winemaking, aligning with an 11-feature input for the random forest model.
+- Improved the model's performance in predicting wine quality through effective feature engineering.
+
+---
+
+### Our Final Model: **Random Forest Classifier**
 
 **What and why?**
 
