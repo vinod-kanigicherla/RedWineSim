@@ -8,6 +8,22 @@
 
 ---
 
+### How to Run:
+1. Install python libries:
+```
+pip install pygame
+pip install pygame_widgets
+pip install scikit-learn
+pip install pandas
+pip install numpy
+```
+
+2. Run **GameFinal.py**
+
+*Note: When running **GameFinal.py**, make sure you are in the **RedWineSim** directory.*
+
+---
+
 ### Key Libraries:
 - **Pygame** - Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.
 - **Pandas** - pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool,
